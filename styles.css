@@ -1,0 +1,59 @@
+body{
+background-color: gray;
+}
+
+.form{
+    margin: 50 auto;
+    width: 300px;
+    padding:30px;
+    background: white;
+}
+
+h1.login-title{
+    color: gray;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.login-input{
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 30px;
+    width: calc(100% - 20px);
+}
+
+.login-input:focus{
+    border-color: aqua;
+    outline: none;
+}
+
+.login-button{
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.link{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.link a{
+    color: gray;
+}
+
+h3{
+    font-weight: normal;
+    text-align: center;
+}
